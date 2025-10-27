@@ -89,8 +89,8 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 11   | ex   | pr  | su 2     | pr        | t1,t3         |
+| 12   | ex t1    | su 1         | pr    | pr         | t3         |
 
 ## Atividade 2 - fatia tempo com valor 10 ticks
 
@@ -108,8 +108,8 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 11   | --    | --         | su 2         | ex linha 2 | t1         |
+| 12   | --    | pr         | su 2         | ex linha 3 | t1         |
 
 ## Atividade 3 - Avaliação do comportamento das trocas de contexto
 
